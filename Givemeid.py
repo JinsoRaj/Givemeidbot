@@ -14,7 +14,7 @@ def id (bot, update):
 	update.message.reply_text("`{}` is your chat id 🙇 " .format(update.message.chat_id),
 	parse_mode = ParseMode. MARKDOWN)
 	
-updater = Updater('TOKEN')
+updater = Updater('778968419:AAFxHJBndpWf8WaJPHzLRqfOqqXq4n_s33Y')
 
 updater.dispatcher.add_handler(CommandHandler('start' , start))
 updater.dispatcher.add_handler(CommandHandler('id', id))
