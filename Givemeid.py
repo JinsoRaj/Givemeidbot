@@ -8,7 +8,7 @@ Click /id to know your telegram user id.
 Add me to a group and use /id to know the group's id. """ .format(update.message.from_user.first_name))
 	
 def about (bot, update):
-	update.message.reply_text("A bot by @AbinPauIZackariah")
+	update.message.reply_text("A bot by @Jinszz")
 
 def id (bot, update):
 	update.message.reply_text("`{}` is your chat id 🙇 " .format(update.message.chat_id),
